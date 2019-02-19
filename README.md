@@ -52,7 +52,7 @@ Objective
 ===
 Once an hour, about 5 minutes after the hour, Sailthru exports new data. The stakeholder should be able to refresh her dashboard and see the new data.
 
-We want to store our data in a colunmnar data warehouse like Redshift. Design the tables that the ingested data will be inserted into.
+We want to store our data in a columnar data warehouse like Redshift. Design the tables that the ingested data will be inserted into.
 
 Write a basic program that retrieves the newly created file, extracts the contents, and inserts the file into their respective database tables. You do not need to connect to S3 for this exercise. Just read the file from the filesystem.
 
@@ -67,4 +67,4 @@ The stakeholder wants the *message_action* chart to have two new fields: `total_
 
 One day, we realize that if a user opens/clicks on an email several days after it was sent, their `message_blast` record is sent again! We have duplicate data in our system. How can we account for this?
 
-Sometimes Sailthru's API is delayed the the stakeolder isn't sure if she's looking at the most up-to-date data. How can we remedy this?
+Sometimes if Sailthru's API is delayed then the stakeolder isn't sure if she's looking at the most up-to-date data. How can we remedy this?
