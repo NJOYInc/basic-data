@@ -53,10 +53,13 @@ Objective
 Once an hour, about 5 minutes after the hour, Sailthru exports new data. The stakeholder should be able to refresh her dashboard and see the new data.
 
 We want to store our data in a colunmnar data warehouse like Redshift. Design the tables that the ingested data will be inserted into.
+
 Write a basic program that retrieves the newly created file, extracts the contents, and inserts the file into their respective database tables. You do not need to connect to S3 for this exercise. Just read the file from the filesystem.
 
+Submit a repoistory with the application code, the SQL statements to create your database schema, and responses the questions below.
 
-Followup
+
+Questions
 ===
 The stakeholder wants the *message_blast* chart to have two new fields: `total_emails_clicked` and `total_emails_opened`. How can we provide this information?
 
