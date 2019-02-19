@@ -56,7 +56,7 @@ We want to store our data in a colunmnar data warehouse like Redshift. Design th
 
 Write a basic program that retrieves the newly created file, extracts the contents, and inserts the file into their respective database tables. You do not need to connect to S3 for this exercise. Just read the file from the filesystem.
 
-Submit a repoistory with the application code, the SQL statements to create your database schema, and responses the questions below.
+Submit a public git repoistory URL with the application code, the SQL statements to create your database schema, and responses to the questions below.
 
 
 Questions
